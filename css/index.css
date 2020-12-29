@@ -1,0 +1,33 @@
+.tasks_container{
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    margin: 200px 0px 200px 200px;
+    background-image: url("../images/tasks\ template.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FBFCFC;
+}
+.tasks_text>h2{
+   margin-top: 150px;
+   margin-left: 600px;
+}
+
+.tasks_text>p{
+   color:  silver;
+   width: 350px;
+   font-size: 17px;
+   line-height: 20px;
+   margin-left: 600px;
+}
+
+.tasks_text>button{
+    padding: 15px;
+    width: 150px;
+    background-color:#00BC91;
+    margin-left: 600px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
