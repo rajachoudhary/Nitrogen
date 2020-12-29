@@ -75,8 +75,53 @@ body {
 	padding-top: 30px;
 	position: bottom;
 }
-.metismenu {
-	list-style-type: none;
+
+.footer-div {
+	margin-left: 450px;
+}
+.first_footer_line > h6 {
+	float: left;
+	margin: 14px;
+	color: gray;
+}
+.first_footer_line > ul > li {
+	float: left;
+	margin: 10px 20px;
+	color: gray;
+	font-size: 12px;
+}
+.first_footer_line {
+	margin-left: 20px;
+}
+.second_footer_line > h5 {
+	float: left;
+	margin: 8px;
+	color: gray;
+}
+.second_footer_line > i {
+	float: left;
+	margin: 10px 20px;
+	color: gray;
+	font-size: 12px;
+}
+.clear-all {
+	clear: both;
+}
+small {
+	color: rgb(209, 180, 180);
+}
+
+small > p {
+	margin-left: 28px;
+	margin-top: 0px;
+	color: rgb(209, 180, 180);
+}
+small > p > a:hover {
+	cursor: pointer;
+	color: rgb(10, 10, 34);
+}
+.footer-div:last-child {
+	padding-top: 50px;
 }
 /* Side bar code ends */
 .main {
