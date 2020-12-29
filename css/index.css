@@ -1,0 +1,92 @@
+body {
+	font-family: proxima nova, helvetica neue, helvetica, arial, sans-serif;
+}
+
+/* Side bar code starts */
+.sidenav {
+	height: 1000px;
+	width: 180px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	padding-top: 20px;
+	border-right: 1px solid rgb(218, 218, 218);
+}
+
+.sidenav > div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sidenav > div > img {
+	height: 32px;
+	width: 33px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+.home_icon > img + div {
+	float: right;
+}
+.sidenav_plus_icon {
+	border: 1px solid rgb(137, 215, 195);
+	height: 32px;
+	width: 32px;
+	margin-right: 25px;
+	border-radius: 5px;
+}
+.fa-plus {
+	color: rgb(100, 202, 175);
+	margin: 8px;
+	font-size: 15px;
+	font-weight: normal;
+}
+.sidenav_plus_icon:hover {
+	cursor: pointer;
+	border: 2px solid rgb(137, 215, 195);
+}
+.sidenav a {
+	padding: 4px 4px 6px 16px;
+	text-decoration: none;
+	font-size: 14px;
+	color: rgb(105, 108, 111);
+	display: block;
+}
+
+.sidenav > div > a > i {
+	font-size: 20px;
+	margin-right: 8px;
+	color: rgb(128, 130, 133);
+}
+
+.sidenav a:hover {
+	color: rgb(166, 167, 169);
+}
+.line {
+	height: 2px;
+	width: 150px;
+	margin-left: 10px;
+	background-color: rgb(236, 240, 241);
+	margin-bottom: 20px;
+}
+.last_two_navs {
+	padding-top: 130px;
+	position: bottom;
+}
+/* Side bar code ends */
+.main {
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
