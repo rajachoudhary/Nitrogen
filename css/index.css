@@ -17,7 +17,7 @@ body {
 }
 
 .sidenav > div {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
@@ -48,7 +48,7 @@ body {
 	border: 2px solid rgb(137, 215, 195);
 }
 .sidenav a {
-	padding: 4px 4px 6px 16px;
+	padding: 6px 6px 6px 16px;
 	text-decoration: none;
 	font-size: 14px;
 	color: rgb(105, 108, 111);
@@ -72,8 +72,11 @@ body {
 	margin-bottom: 20px;
 }
 .last_two_navs {
-	padding-top: 130px;
+	padding-top: 30px;
 	position: bottom;
+}
+.metismenu {
+	list-style-type: none;
 }
 /* Side bar code ends */
 .main {
