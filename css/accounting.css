@@ -1,0 +1,134 @@
+body{
+    /* background-color: rgb(226, 222, 222); */
+}
+.accounting_container{
+   border: 1px solid rgb(194, 184, 184);
+    height: 580px;
+    width: 1000px;
+    margin: 200px 0px 200px 300px;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-color: #FBFCFC;
+    background-image: url("../images/accounts1.png");
+     box-shadow: 1px 3px 3px 3px rgb(219, 218, 218);;
+}
+
+.accounting_heading{
+    display: flex;
+    width: 400px;
+    margin: 50px 0px 0px 400px;
+}
+
+.accounting_heading > h2{
+    font-size: 30px;
+}
+
+.accounting_heading > div{
+    margin-top: 35px;
+    font-size: 10px;
+    margin-left: 30px;
+    background-color: rgb(236, 203, 119);
+    border-radius: 5px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    height: 10px;
+    padding: 5px;
+}
+
+.accounting_text_under_heading{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 500px;
+    font-size: 17px;
+    margin: 25px 0px 0px 400px;
+    color:   rgb(139, 134, 134);
+    line-height: 25px;
+    word-spacing: 5px;
+}
+.upgrade_plan_button_accounting{
+    margin: 25px 0px 0px 400px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #00bb90;
+    border: none;
+    color: white;
+}
+
+.accounitng_paragraph_container{
+    margin: 100px 0px 0px 390px;
+    display: flex;
+    height: 180px;
+    width: 570px;
+    /* border: 1px solid black; */
+}
+.accounitng_subparagraph1_container{
+    /* border: 1px solid black; */
+    width: 350px;
+    float: left;
+}
+.accounting_track_expenses {
+    display: flex;
+    margin-bottom: 10px;
+}
+.accounting_track_expenses > div{
+    margin-left: 10px;
+    color:   rgb(139, 134, 134);
+}
+.accounting_track_expenses i{
+    color: #00bb90
+}
+.accounting_profit_and_loss{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.accounting_profit_and_loss>i{
+    color: #00bb90
+}
+.accounting_profit_and_loss>div{
+    margin-left: 10px;
+    color:   rgb(139, 134, 134);
+}
+.accounting_share_access{
+    display: flex;
+    margin-bottom: 10px;
+}   
+.accounting_share_access >i{
+    color: #00bb90
+}
+.accounting_share_access>div{
+    margin-left: 10px;
+    color:   rgb(139, 134, 134);
+}
+
+.accounitng_subparagraph2_container{
+    /* border: 1px solid black; */
+    width: 350px;
+    float: left;
+}
+.accounting_manage_income {
+    display: flex;
+    margin-bottom: 10px;
+}
+.accounting_manage_income > div{
+    margin-left: 10px;
+    color:   rgb(139, 134, 134);
+}
+.accounting_manage_income i{
+    color: #00bb90
+}
+.accounting_customize_expense{
+    display: flex;
+    
+}
+    
+
+.accounting_customize_expense>i{
+    color: #00bb90
+}
+.accounting_customize_expense>div{
+    margin-left: 10px;
+    color:   rgb(139, 134, 134);
+}
