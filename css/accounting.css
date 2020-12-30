@@ -1,9 +1,194 @@
+body {
+	font-family: proxima nova, helvetica neue, helvetica, arial, sans-serif;
+}
+
+/* Side bar code starts */
+.sidenav {
+	height: 1000px;
+	width: 180px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	padding-top: 20px;
+	border-right: 1px solid rgb(218, 218, 218);
+}
+
+.sidenav > div {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.sidenav > div > img {
+	height: 32px;
+	width: 33px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+.home_icon > img + div {
+	float: right;
+}
+.sidenav_plus_icon {
+	border: 1px solid rgb(137, 215, 195);
+	height: 32px;
+	width: 32px;
+	margin-right: 45px;
+	border-radius: 5px;
+}
+.fa-plus {
+	color: rgb(100, 202, 175);
+	margin: 8px;
+	font-size: 15px;
+	font-weight: normal;
+}
+.sidenav_plus_icon:hover {
+	cursor: pointer;
+	border: 2px solid rgb(137, 215, 195);
+}
+.sidenav a {
+	padding: 6px 6px 6px 16px;
+	text-decoration: none;
+	font-size: 14px;
+	color: rgb(105, 108, 111);
+	display: block;
+}
+
+.sidenav > div > a > i {
+	font-size: 20px;
+	margin-right: 8px;
+	color: rgb(128, 130, 133);
+}
+
+.sidenav a:hover {
+	color: rgb(166, 167, 169);
+}
+.line {
+	height: 2px;
+	width: 150px;
+	margin-left: 10px;
+	background-color: rgb(236, 240, 241);
+	margin-bottom: 20px;
+}
+.last_two_navs {
+	padding-top: 30px;
+	position: bottom;
+}
+/* Side bar code ends */
+/* Top bar code starts */
+.top_nav_bar {
+	height: 75px;
+	border-bottom: 1px solid rgb(218, 218, 218);
+	margin-left: 100px;
+}
+.top_nav_bar > div {
+	float: left;
+}
+.search_bar {
+	margin: 25px 100px;
+	height: 35px;
+	width: 350px;
+}
+.search_bar:hover {
+	margin: 25px 100px;
+	height: 35px;
+	width: 350px;
+	border: 1px solid rgb(218, 218, 218);
+	border-radius: 5px;
+}
+.fa-search {
+	margin: 10px 10px;
+	color: rgb(160, 162, 160);
+}
+.fa-search > i {
+	margin-left: 10px;
+	color: rgb(154, 184, 210);
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.top_nav_right_elements {
+	margin-top: 10px;
+	margin-left: 280px;
+}
+.top_nav_right_elements > div {
+	float: left;
+	margin: 8px 50px;
+}
+
+.timer_div {
+	height: 35px;
+	width: 35px;
+	margin-top: 8px;
+	border-radius: 50%;
+	/* border: 1 px solid rgb(58, 178, 137); */
+	background-color: rgb(58, 178, 137);
+	cursor: pointer;
+	padding: 5px 5px;
+
+	outline: none;
+}
+
+.timer_div:hover {
+	border: none;
+}
+.timer_div > i {
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+.dropbtn {
+	background-color: rgb(76, 82, 90);
+	color: white;
+	margin-top: 8px;
+	padding: 8px 3px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* .dropbtn:focus {
+	background-color: #2980b9;
+} */
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown a:hover {
+	background-color: #ddd;
+}
+
+.show {
+	display: block;
+}
+
 
 .accounting_container{
    border: 1px solid rgb(194, 184, 184);
     height: 580px;
     width: 1000px;
-    margin: 200px 0px 200px 300px;
+    margin: 30px 0px 200px 300px;
     background-size: 1000px;
     background-repeat: no-repeat;
     background-color: #FBFCFC;
@@ -129,3 +314,54 @@
 b{
     color: rgb(122, 113, 113);
 }
+
+/* Footer Code starts */
+.footer-div {
+	margin-left: 450px;
+	padding: 20px;
+}
+.first_footer_line > h6 {
+	float: left;
+	margin: 14px;
+	color: gray;
+}
+.first_footer_line > ul > li {
+	float: left;
+	margin: 10px 20px;
+	color: gray;
+	font-size: 12px;
+}
+.first_footer_line {
+	margin-left: 20px;
+}
+.second_footer_line > h5 {
+	float: left;
+	margin: 8px;
+	color: gray;
+}
+.second_footer_line > i {
+	float: left;
+	margin: 10px 20px;
+	color: gray;
+	font-size: 12px;
+}
+.clear-all {
+	clear: both;
+}
+small {
+	color: rgb(209, 180, 180);
+}
+
+small > p {
+	margin-left: 28px;
+	margin-top: 0px;
+	color: rgb(209, 180, 180);
+}
+small > p > a:hover {
+	cursor: pointer;
+	color: rgb(10, 10, 34);
+}
+.footer-div:last-child {
+	padding-top: 50px;
+}
+/* Footer Code Ends */
