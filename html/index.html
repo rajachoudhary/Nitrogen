@@ -68,40 +68,177 @@
 			</div>
 		</div>
 		<!-- Side bar code ends -->
-		<div class="main">
-			<h2>Sidebar</h2>
-			<p>This sidebar is of full height (100%) and always shown.</p>
-			<p>Scroll down the page to see the result.</p>
-			<p>
-				Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
-				definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
-				quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
-				laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
-				molestiae voluptatibus.
-			</p>
-			<p>
-				Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
-				definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
-				quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
-				laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
-				molestiae voluptatibus.
-			</p>
-			<p>
-				Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
-				definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
-				quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
-				laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
-				molestiae voluptatibus.
-			</p>
-			<p>
-				Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
-				definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
-				quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
-				laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
-				molestiae voluptatibus.
-			</p>
-		</div>
+		<div class="top_nav_bar">
+			<div class="search_bar">
+				<i class="fa fa-search"> <i>Search</i> </i>
+			</div>
 
+			<div class="top_nav_right_elements">
+				<div class="timer_dropdown">
+					<button id="timer_dropbtn" class="timer_div">
+						<i
+							class="fa fa-caret-right"
+							style="color: white; margin: auto; font-size: 20px"
+						></i>
+					</button>
+					<i class="start_timer_"> Start Timer</i>
+					<i class="fa fa-caret-down"></i>
+				</div>
+
+				<div class="profile_dropdown">
+					<div class="dropdown">
+						<button id="dropbtn" class="dropbtn">
+							Vk <i class="fa fa-caret-down"></i>
+						</button>
+						<div id="myDropdown" class="dropdown-content">
+							<a href="#home">Home</a>
+							<a href="#about">About</a>
+							<a href="#contact">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear-all"></div>
+		<div class="main">
+			<div class="top_div">
+				<div class="project_timeline_div">
+					<p
+						style="
+							font-size: 14px;
+							font-weight: bold;
+							margin: auto;
+							border-bottom: 1px solid rgb(216, 216, 216);
+							padding: 18px;
+						"
+					>
+						Project Timeline
+					</p>
+					<div class="below_project_timeline_line">
+						<i class="fa fa-telegram"></i>
+						<div></div>
+						<i class="fa fa-dollar"></i>
+						<div></div>
+						<i class="fa fa-dollar"></i>
+						<div></div>
+					</div>
+					<div class="clear-all"></div>
+					<p
+						style="
+							color: rgb(171, 201, 223);
+							font-size: 15px;
+							text-align: center;
+						"
+					>
+						No current activity in time frame.
+					</p>
+				</div>
+
+				<div class="right_side_top_div">
+					<div class="card">
+						<img
+							src="https://app.hellobonsai.com/assets/getting_started/onboarding-action-proposals-bacdbb40781bcf1a17d937c8265c4d82f286ec8a6fe9f106ad402c03cf382608.png"
+							alt="draft"
+						/>
+						<span>Draft a Proposal</span>
+					</div>
+					<div class="card">
+						<img
+							src="https://app.hellobonsai.com/assets/getting_started/onboarding-action-contracts-73ad171597d2eb387ff77e01a6b375fd33bda9ff5618712825ea39058eda2210.png"
+							alt="contract"
+						/>
+						<span style="margin-right: 90px">Create a Contract</span>
+					</div>
+					<div class="card">
+						<img
+							src="https://app.hellobonsai.com/assets/getting_started/onboarding-action-invoicing-edd01e1b61c356a46cbdc5165e8213bffadc20151208d2029456cb492a3d8764.png"
+							alt="invoice"
+						/>
+						<span>Send an Invoice</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="top_second_div">
+				<div class="income_timeline_div">
+					<p
+						style="
+							font-size: 14px;
+							font-weight: bold;
+							margin: auto;
+							border-bottom: 1px solid rgb(216, 216, 216);
+							padding: 18px;
+						"
+					>
+						Total Income
+						<select name="time_tracker" id="time_tracker">
+							<option value="last_14_days">USD</option>
+						</select>
+						<select name="time_tracker" id="time_tracker">
+							<option value="last_14_days">Last 30 Days</option>
+							<option value="last_30_days">This Month</option>
+							<option value="last_6_months">Last 90 Days</option>
+							<option value="this_week">Last 3 Months</option>
+							<option value="this_month">Last 6 Months</option>
+							<option value="this_month">Last 12 Months</option>
+							<option value="this_month">This Year</option>
+							<option value="this_month">Last Year</option>
+						</select>
+					</p>
+				</div>
+
+				<div class="right_side_top_second_div">
+					<div class="right_of_income_timeline_div">
+						<p
+							style="
+								font-size: 14px;
+								font-weight: bold;
+								margin: auto;
+								border-bottom: 1px solid rgb(216, 216, 216);
+								padding: 18px;
+							"
+						>
+							Activity
+						</p>
+						<ul>
+							<li>Vishal Kumar archived "abc". Dec 29, 2020 6:28PM</li>
+							<li>
+								Vishal Kumar marked "abc" as complete. Dec 29, 2020 6:28PM
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- last box -->
+			<div class="last_div">
+				<div class="time_tracked_div">
+					<p
+						style="
+							font-size: 14px;
+							font-weight: bold;
+							margin: auto;
+							border-bottom: 1px solid rgb(216, 216, 216);
+							padding: 18px;
+						"
+					>
+						Time Tracked
+						<select name="time_tracker" id="time_tracker">
+							<option value="last_14_days">Last 14 Days</option>
+							<option value="last_30_days">Last 30 Days</option>
+							<option value="last_6_months">Last 6 Months</option>
+							<option value="this_week">This Week</option>
+							<option value="this_month">This Month</option>
+						</select>
+					</p>
+				</div>
+				<div></div>
+				<div></div>
+			</div>
+			<!-- last box ends -->
+		</div>
+		<div class="clear-all"></div>
+		<!-- Footer code starts -->
 		<div class="footer-div">
 			<div class="first_footer_line">
 				<h6>Fearture Request</h6>
@@ -132,6 +269,7 @@
 				>
 			</div>
 		</div>
+		<!-- Footer Code Ends -->
 
 		<script src="../js/index.js"></script>
 	</body>
