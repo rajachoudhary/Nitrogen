@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/tasks.css"/>
-    <script
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/tasks.css" />
+		<script
 			src="https://kit.fontawesome.com/7b35b07a48.js"
 			crossorigin="anonymous"
 		></script>
@@ -23,10 +23,10 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
-    <title>Tasks</title>
-</head>
-<body>
-    <!-- side bar code starts -->
+		<title>Tasks</title>
+	</head>
+	<body>
+		<!-- side bar code starts -->
 		<div class="sidenav">
 			<div class="home_icon">
 				<img
@@ -37,12 +37,14 @@
 			</div>
 
 			<div>
-				<a href="#dashboard"><i class="fa fa-home"></i> Dashboard</a>
+				<a href="../html/index.html"><i class="fa fa-home"></i> Dashboard</a>
 				<a href="#clients"><i class="fa fa-group"></i> Clients</a>
 				<a href="#Projects"><i class="fa fa-folder"></i> Projects</a>
 			</div>
 			<div>
-				<a href="#Proposals"><i class="fa fa-file"></i> Proposals</a>
+				<a href="#Proposals" id="proposal"
+					><i class="fa fa-file"></i> Proposals</a
+				>
 				<a href="#Contracts"><i class="fas fa-file-contract"></i> Contracts</a>
 				<a href="#Invoices"
 					><i class="fas fa-file-invoice-dollar"></i> Invoices</a
@@ -51,11 +53,11 @@
 			<div>
 				<a href="#time_tracking"><i class="fa fa-clock-o"></i> Time Tracking</a>
 
-				<a href="../html/tasks.html" id="tasks"><i class="fas fa-clipboard"></i> Tasks</a>
+				<a href="#" id="tasks"><i class="fas fa-clipboard"></i> Tasks</a>
 			</div>
 
 			<div>
-				<a href="#accounting"
+				<a href="../html/accounting.html" id="accounting"
 					><i class="fas fa-file-invoice-dollar"></i> Accounting</a
 				>
 				<a href="#taxes"><i class="fas fa-file-invoice-dollar"></i> Taxes</a>
@@ -67,8 +69,8 @@
 				<a href="#refer_a_friend"><i class="fa fa-gift"></i> Refer a Friend</a>
 			</div>
 		</div>
-        <!-- Side bar code ends -->
-        <div class="top_nav_bar">
+		<!-- Side bar code ends -->
+		<div class="top_nav_bar">
 			<div class="search_bar">
 				<i class="fa fa-search"> <i>Search</i> </i>
 			</div>
@@ -100,16 +102,17 @@
 			</div>
 		</div>
 		<div class="clear-all"></div>
-    <div class="tasks_container">
-       <div class="tasks_text">
-           <h2>Task Management For Projects</h2>
-           <p> Create tasks for your projects with details and due dates.
-                Reorder them as needed and manage the upcoming todos you have planned.
-            </p>
-            <button>ADD A TASK</button>
-       </div>
-    </div>
-    <!-- Footer code starts -->
+		<div class="tasks_container">
+			<div class="tasks_text">
+				<h2>Task Management For Projects</h2>
+				<p>
+					Create tasks for your projects with details and due dates. Reorder
+					them as needed and manage the upcoming todos you have planned.
+				</p>
+				<button>ADD A TASK</button>
+			</div>
+		</div>
+		<!-- Footer code starts -->
 		<div class="footer-div">
 			<div class="first_footer_line">
 				<h6>Fearture Request</h6>
@@ -142,6 +145,6 @@
 		</div>
 		<!-- Footer Code Ends -->
 
-		<script src="../js/tasks.js"></script>
-</body>
+		<script src="../js/index.js"></script>
+	</body>
 </html>
