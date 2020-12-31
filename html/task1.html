@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../css/tasks.css" />
+		<link rel="stylesheet" href="../css/task1.css" />
 		<script
 			src="https://kit.fontawesome.com/7b35b07a48.js"
 			crossorigin="anonymous"
@@ -109,15 +109,28 @@
 		</div>
 		<div class="clear-all"></div>
 		<div class="tasks_container">
-			<div class="tasks_text">
-				<h2>Task Management For Projects</h2>
-				<p>
-					Create tasks for your projects with details and due dates. Reorder
-					them as needed and manage the upcoming todos you have planned.
-				</p>
-				<button id="add_a_task">ADD A TASK</button>
+			<div class="top-left-div">
+				<select name="add_tasks" id="add_tasks">
+					<option value="active">Active</option>
+					<option value="completed">Completed</option>
+					<option value="archived">Archived</option>
+				</select>
+				<select name="add_tasks" id="add_tasks">
+					<option value="all_tasks">All Tasks</option>
+					<option value="my_tasks">My Tasks</option>
+				</select>
+				<select name="add_tasks" id="add_projects" class="all_projects">
+					<option value="all_projects">All Projects</option>
+				</select>
 			</div>
+			<div class="top-right-div">
+				<button class="add_from_template">ADD FROM TEMPLATE</button>
+				<button id="new_task" class="new_task">NEW TASK</button>
+			</div>
+			<div class="clear-all"></div>
 		</div>
+		<div id="box" class="box"></div>
+		<div class="clear-all"></div>
 		<!-- Footer code starts -->
 		<div class="footer-div">
 			<div class="first_footer_line">
@@ -151,6 +164,6 @@
 		</div>
 		<!-- Footer Code Ends -->
 
-		<script src="../js/tasks.js"></script>
+		<script src="../js/task1.js"></script>
 	</body>
 </html>
