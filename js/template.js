@@ -23,7 +23,7 @@ function createTemplate(e) {
 }
 
 //code for proposals tab
-proposalstab = document.getElementById('proposals');
+proposalstab = document.getElementById('proposal');
 proposalstab.addEventListener('click', createProposalTemplate);
 
 function createProposalTemplate(e) {
