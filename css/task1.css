@@ -183,45 +183,87 @@ body {
 	display: block;
 }
 
+/* Main content */
 .tasks_container {
-	display: flex;
-	height: 500px;
-	width: 1000px;
-	margin: 20px 0px 200px 300px;
-	background-image: url('../images/tasks\ template.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-color: #fbfcfc;
+	margin-left: 180px;
 }
-.tasks_text > h2 {
-	margin-top: 150px;
-	margin-left: 600px;
+.tasks_container > div {
+	float: left;
+	margin: 20px 50px;
 }
-
-.tasks_text > p {
-	color: silver;
-	width: 350px;
-	font-size: 17px;
-	line-height: 20px;
-	margin-left: 600px;
+.top-right-div {
+	margin-left: 50px;
 }
-
-.tasks_text > button {
-	padding: 15px;
+select {
+	margin: 0px 5px;
 	width: 150px;
-	background-color: #00bc91;
-	margin-left: 600px;
-	margin-top: 20px;
-	color: white;
-	border: none;
-
-	border-radius: 5px;
+	height: 38px;
+	outline: none;
+	color: rgb(81, 70, 96);
+	font-size: 15px;
+	float: left;
+	/* background-color: green; */
+	border-radius: 1px solid rgb(216, 216, 216);
 }
-.tasks_text > button:hover {
-	background-color: #00bc80;
+.all_projects {
+	width: 230px;
+}
+select > option:hover {
+	background-color: green;
+}
+
+.add_from_template {
+	width: 230px;
+	height: 38px;
+	background-color: rgb(252, 252, 252);
+	border: 1px solid rgb(216, 216, 216);
+	margin-right: 5px;
+	border-radius: 5px;
 	cursor: pointer;
 }
-
+.new_task {
+	width: 110px;
+	height: 38px;
+	background-color: rgb(58, 177, 137);
+	color: white;
+	border-radius: 5px;
+	border: 1px solid rgb(58, 177, 137);
+}
+.new_task:hover {
+	cursor: pointer;
+	background-color: rgb(76, 184, 148);
+}
+.box {
+	border: 1px solid rgb(216, 216, 216);
+	margin: 100px 235px;
+	height: 200px;
+	width: 1000px;
+}
+.box1 {
+	margin: 100px 235px;
+	height: 0px;
+	width: 0px;
+}
+.box > p {
+	float: left;
+	color: rgb(195, 166, 149);
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+.clear-all {
+	clear: both;
+}
+.add_task {
+	margin: 20px 100px;
+	height: 50px;
+	width: 800px;
+	outline: none;
+	border: 1px solid rgb(236, 240, 241);
+	cursor: pointer;
+}
+.add_task:hover {
+	border: 2px solid rgb(236, 240, 241);
+}
 /* Footer Code starts */
 .footer-div {
 	margin-left: 450px;

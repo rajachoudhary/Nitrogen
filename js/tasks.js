@@ -3,83 +3,23 @@ tasktab.addEventListener('click', createTemplate);
 
 function createTemplate(e) {
 	//let ulTag = document.createElement('ul');
-	e.preventDefault();
+	// window.location.replace('../html/tasks.html');
+
 	let liTag = document.createElement('li');
 
 	let aTag = document.createElement('a');
-	aTag.href = '../html/template.html';
+	// aTag.href = '../html/template.html';
 	liTag.textContent = 'Templates';
 	aTag.appendChild(liTag);
 	liTag.id = 'templates';
 
 	//ulTag.appendChild(liTag);
 	tasktab.appendChild(aTag);
-
 	templatetab = document.getElementById('templates');
 	templatetab.addEventListener('click', function () {
-		// console.log('hellow');
 		window.location.replace('../html/template.html');
 	});
-}
-
-//code for proposals tab
-proposalstab = document.getElementById('proposals');
-proposalstab.addEventListener('click', createProposalTemplate);
-
-function createProposalTemplate(e) {
-	//let ulTag = document.createElement('ul');
 	e.preventDefault();
-	let liTag = document.createElement('li');
-
-	let aTag = document.createElement('a');
-	aTag.href = '../html/proposal_template.html';
-	liTag.textContent = 'Templates';
-	aTag.appendChild(liTag);
-	liTag.id = 'proposal_templates';
-
-	//ulTag.appendChild(liTag);
-	proposalstab.appendChild(aTag);
-
-	proposaltemplatetab = document.getElementById('proposal_templates');
-	proposaltemplatetab.addEventListener('click', function () {
-		// console.log('hellow');
-		window.location.replace('../html/proposal_template.html');
-	});
-}
-
-//code for generating li inside accountings tab
-accountingtab = document.getElementById('accounting');
-accountingtab.addEventListener('click', createAccountingLists);
-function createAccountingLists(e) {
-	e.preventDefault();
-	// let ulTag = document.createElement('ul');
-	let firstLiTag = document.createElement('li');
-	let secondLiTag = document.createElement('li');
-	firstLiTag.id = 'expenses';
-	secondLiTag.id = 'income';
-	let expensesATag = document.createElement('a');
-	let incomeATag = document.createElement('a');
-	expensesATag.href = '../html/expenses.html';
-	incomeATag.href = '../html/income.html';
-	firstLiTag.textContent = 'Expenses';
-	secondLiTag.textContent = 'Income';
-	expensesATag.appendChild(firstLiTag);
-	incomeATag.appendChild(secondLiTag);
-	// ulTag.appendChild(expensesATag, incomeATag);
-	accountingtab.appendChild(expensesATag);
-	accountingtab.appendChild(incomeATag);
-
-	expensestab = document.getElementById('expenses');
-	expensestab.addEventListener('click', function () {
-		// console.log('hellow');
-		window.location.replace('../html/expenses.html');
-	});
-
-	incometab = document.getElementById('income');
-	incometab.addEventListener('click', function () {
-		// console.log('hellow');
-		window.location.replace('../html/income.html');
-	});
 }
 
 // top nav profile dropdown
@@ -106,4 +46,58 @@ window.onclick = function (event) {
 // timerDiv.addEventListener('click', noBorder);
 // function noBorder() {
 // 	timerDiv.textDec
+// }
+
+taskButton = document.getElementById('add_a_task');
+taskButton.addEventListener('click', addTask);
+function addTask(e) {
+	e.preventDefault();
+	window.location.replace('../html/task1.html');
+}
+
+// showTask();
+// var addTaskInput = document.getElementById('addTaskInput');
+// var addTaskButton = document.getElementById('addTaskButton');
+// addTaskButton.addEventListener('click', function () {
+// 	var addTaskInputValue = addTaskInput.value;
+// 	if (addTaskInputValue.trim()) {
+// 		var task = localStorage.getItem('localtask');
+// 		if (task === null) {
+// 			taskObj = [];
+// 		} else {
+// 			taskObj = JSON.parse(task);
+// 		}
+// 		taskObj.push({ task_name: addTaskInputValue });
+// 		localStorage.setItem('localtask', JSON.stringify(taskObj));
+// 		addTaskInput.value = '';
+// 	}
+// 	showTask();
+// });
+
+// function showTask() {
+// 	var task = localStorage.getItem('localtask');
+// 	if (task === null) {
+// 		taskObj = [];
+// 	} else {
+// 		taskObj = JSON.parse(task);
+// 	}
+
+// 	var html = '';
+// 	var taskList = document.getElementById('taskList');
+// 	taskObj.forEach(function (item, index) {
+// 		html += `<tr class="row">
+//         <td>${index + 1}</td>
+//         <td>${item.task_name}</td>
+//         <td><button onClick="deleteItem(${index})">DELETE</button></td>
+//         </tr>`;
+// 	});
+// 	taskList.innerHTML = html;
+// }
+
+// function deleteItem(index) {
+// 	var task = localStorage.getItem('localtask');
+// 	var task = JSON.parse(task);
+// 	taskObj.splice(index, 1);
+// 	localStorage.setItem('localtask', JSON.stringify(taskObj));
+// 	showTask();
 // }
