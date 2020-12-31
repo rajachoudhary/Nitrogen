@@ -324,7 +324,65 @@ body {
 option:hover {
 	background-color: green !important;
 }
+/* Timer functionality css code starts*/
+.timer_main-div {
+	height: 300px;
+	width: 400px;
+	/* border: 1px solid rgb(218, 218, 218); */
+	border: 1px solid black;
+	z-index: 1;
+}
+.first_div_inside_timer_main_div {
+	height: 150px;
+	width: 400px;
+	border-bottom: 1px solid rgb(218, 218, 218);
+}
+.second_div_inside_timer_main_div {
+	height: 150px;
+	width: 400px;
+}
 
+/* .dropbtn {
+	background-color: rgb(76, 82, 90);
+	color: white;
+	margin-top: 8px;
+	padding: 8px 3px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+} */
+
+.timer_main-div {
+	position: relative;
+	display: inline-block;
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* .dropdown-content {
+} */
+
+/* .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+} */
+
+/* .dropdown a:hover {
+	background-color: #ddd;
+} */
+
+.show-timer {
+	display: block;
+}
+/* Timer functionality css code ends*/
 /* Footer Code starts */
 .footer-div {
 	margin-left: 450px;
