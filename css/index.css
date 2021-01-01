@@ -260,14 +260,40 @@ body {
 	font-size: 15px;
 }
 .income_timeline_div {
-	height: 400px;
+	height: 500px;
 	width: 680px;
 	border: 1px solid rgb(216, 216, 216);
 	margin-left: 30px;
 	margin-top: 20px;
 	border-radius: 10px;
 }
-
+.total_income_middle {
+	float: left;
+	border: 1px solid rgb(216, 216, 216);
+	height: 150px;
+	width: 95px;
+	border-bottom: 2px solid green;
+}
+.total_income_middle > p {
+	color: rgb(171, 201, 223);
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+}
+.bottom_total_income_middle {
+	float: left;
+	border: 1px solid rgb(216, 216, 216);
+	height: 150px;
+	width: 95px;
+	border-bottom: 1px solid rgb(216, 216, 216);
+	margin-top: 0px;
+}
+/* .line-div {
+	height: 5px;
+	width: 650px;
+	background-color: green;
+	margin-top: 170px;
+} */
 .right_side_top_second_div {
 	margin-top: 10px;
 }
@@ -325,6 +351,35 @@ body {
 option:hover {
 	background-color: green !important;
 }
+.upcoming_and_task {
+	height: 200px;
+	width: 680px;
+	border: 1px solid rgb(216, 216, 216);
+	margin-left: 30px;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+/* .upcoming_and_task > p + div {
+	float: right;
+} */
+.upcoming_and_task_plus_icon {
+	color: rgb(100, 202, 175);
+	font-size: 15px;
+	font-weight: normal;
+	border: 1px solid rgb(137, 215, 195);
+	/* width: 22px; */
+	/* margin-left: 200px; */
+	/* height: 22px; */
+	margin-left: 200px;
+	border-radius: 5px;
+	padding: 6px 15px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	float: right;
+	cursor: pointer;
+}
+
 /* Timer functionality css code starts*/
 .timer_main-div {
 	height: 300px;
