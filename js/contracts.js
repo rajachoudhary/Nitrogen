@@ -185,3 +185,8 @@ function getTimer(event) {
 // 	stopTimer();
 // 	display(0, 0, 0, 0);
 // }
+img = document.getElementById('img');
+img.addEventListener('click', takeToHomePage);
+function takeToHomePage() {
+	window.location.replace('../html/index.html');
+}

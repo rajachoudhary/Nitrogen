@@ -1,5 +1,4 @@
 showTask();
-
 let Div = document.getElementById('box');
 let addTaskBtn = document.getElementById('new_task');
 addTaskBtn.addEventListener('click', addTask);
@@ -79,3 +78,27 @@ function showTask() {
 // 	localStorage.setItem('localtask', JSON.stringify(taskObj));
 // 	showTask();
 // }
+// top nav profile dropdown
+let dropDownBtn = document.getElementById('dropbtn');
+dropDownBtn.addEventListener('click', myFunction);
+function myFunction() {
+	document.getElementById('myDropdown').classList.toggle('show');
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+	if (!event.target.matches('.dropbtn')) {
+		let dropdowns = document.getElementsByClassName('dropdown-content');
+		let i;
+		for (i = 0; i < dropdowns.length; i++) {
+			let openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			}
+		}
+	}
+};
+img = document.getElementById('img');
+img.addEventListener('click', takeToHomePage);
+function takeToHomePage() {
+	window.location.replace('../html/index.html');
+}

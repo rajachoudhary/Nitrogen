@@ -1,87 +1,3 @@
-// tasktab = document.getElementById('tasks');
-// tasktab.addEventListener('click', createTemplate);
-
-// function createTemplate(e) {
-// 	//let ulTag = document.createElement('ul');
-// 	e.preventDefault();
-// 	let liTag = document.createElement('li');
-
-// 	let aTag = document.createElement('a');
-// 	aTag.href = '../html/template.html';
-// 	liTag.textContent = 'Templates';
-// 	aTag.appendChild(liTag);
-// 	liTag.id = 'templates';
-
-// 	//ulTag.appendChild(liTag);
-// 	tasktab.appendChild(aTag);
-
-// 	templatetab = document.getElementById('templates');
-// 	templatetab.addEventListener('click', function () {
-// 		// console.log('hellow');
-// 		window.location.replace('../html/template.html');
-// 	});
-// }
-
-//code for proposals tab
-// proposalstab = document.getElementById('proposals');
-// proposalstab.addEventListener('click', createProposalTemplate);
-
-// function createProposalTemplate(e) {
-// 	//let ulTag = document.createElement('ul');
-// 	e.preventDefault();
-// 	let liTag = document.createElement('li');
-
-// 	let aTag = document.createElement('a');
-// 	aTag.href = '../html/proposal_template.html';
-// 	liTag.textContent = 'Templates';
-// 	aTag.appendChild(liTag);
-// 	liTag.id = 'proposal_templates';
-
-// 	//ulTag.appendChild(liTag);
-// 	proposalstab.appendChild(aTag);
-
-// 	proposaltemplatetab = document.getElementById('proposal_templates');
-// 	proposaltemplatetab.addEventListener('click', function () {
-// 		// console.log('hellow');
-// 		window.location.replace('../html/proposal_template.html');
-// 	});
-// }
-
-// //code for generating li inside accountings tab
-// accountingtab = document.getElementById('accounting');
-// accountingtab.addEventListener('click', createAccountingLists);
-// function createAccountingLists(e) {
-// 	e.preventDefault();
-// 	// let ulTag = document.createElement('ul');
-// 	let firstLiTag = document.createElement('li');
-// 	let secondLiTag = document.createElement('li');
-// 	firstLiTag.id = 'expenses';
-// 	secondLiTag.id = 'income';
-// 	let expensesATag = document.createElement('a');
-// 	let incomeATag = document.createElement('a');
-// 	expensesATag.href = '../html/expenses.html';
-// 	incomeATag.href = '../html/income.html';
-// 	firstLiTag.textContent = 'Expenses';
-// 	secondLiTag.textContent = 'Income';
-// 	expensesATag.appendChild(firstLiTag);
-// 	incomeATag.appendChild(secondLiTag);
-// 	// ulTag.appendChild(expensesATag, incomeATag);
-// 	accountingtab.appendChild(expensesATag);
-// 	accountingtab.appendChild(incomeATag);
-
-// 	expensestab = document.getElementById('expenses');
-// 	expensestab.addEventListener('click', function () {
-// 		// console.log('hellow');
-// 		window.location.replace('../html/expenses.html');
-// 	});
-
-// 	incometab = document.getElementById('income');
-// 	incometab.addEventListener('click', function () {
-// 		// console.log('hellow');
-// 		window.location.replace('../html/income.html');
-// 	});
-// }
-
 // top nav profile dropdown
 let dropDownBtn = document.getElementById('dropbtn');
 dropDownBtn.addEventListener('click', myFunction);
@@ -102,6 +18,11 @@ window.onclick = function (event) {
 	}
 };
 
+img = document.getElementById('img');
+img.addEventListener('click', takeToHomePage);
+function takeToHomePage() {
+	window.location.replace('../html/index.html');
+}
 // timer div dropdown
 // let timerdropDownBtn = document.getElementById('timer_dropbtn');
 // timerdropDownBtn.addEventListener('click', timerFunction);
@@ -208,4 +129,65 @@ function getTimer(event) {
 // function resetTimer() {
 // 	stopTimer();
 // 	display(0, 0, 0, 0);
+// }
+
+//popup code
+// $(document).ready(function () {
+// 	$('.start-btn').click(function () {
+// 		$('.modal-box').toggleClass('show-modal');
+// 		$('.start-btn').toggleClass('show-modal');
+// 	});
+// 	$('.fa-times').click(function () {
+// 		$('.modal-box').toggleClass('show-modal');
+// 		$('.start-btn').toggleClass('show-modal');
+// 	});
+// });
+
+// let draft_proposal_card = document.getElementById('draft_a_proposal');
+// draft_proposal_card.addEventListener('click', takeToAnotherPage);
+// function takeToAnotherPage() {
+// 	draft_proposal_card.classList.add('draft_a_proposal');
+// 	let generateModelDiv = document.createElement('div');
+// 	generateModelDiv.classList.add('center');
+// 	generateModelDiv.classList.add('modal-box');
+// 	let generateTimesDiv = document.createElement('div');
+// 	generateTimesDiv.classList.add('fas');
+// 	generateTimesDiv.classList.add('fa-times');
+// 	let generateEnvelopDiv = document.createElement('div');
+// 	generateEnvelopDiv.classList.add('fas');
+// 	generateEnvelopDiv.classList.add('fa-envelope');
+// 	generateEnvelopDiv.classList.add('icon1');
+// 	let generateP = document.createElement('P');
+// 	generateP.textContent =
+// 		'Set your currency and country where your business legally operates';
+// 	let formTag = document.createElement('form');
+// 	let generateIcon2Div = document.createElement('div');
+// 	generateIcon2Div.classList.add('fas');
+// 	generateIcon2Div.classList.add('fa-envelope');
+// 	generateIcon2Div.classList.add('icon2');
+// 	let input = document.createElement('input');
+// 	input.type = 'email';
+// 	input.placeholder = 'abc@example.com';
+// 	let button = document.createElement('button');
+// 	button.textContent = 'Continue';
+// 	formTag.appendChild(generateIcon2Div);
+// 	formTag.appendChild(input);
+// 	formTag.appendChild(button);
+// 	draft_proposal_card.appendChild(generateModelDiv);
+// 	draft_proposal_card.appendChild(generateTimesDiv);
+// 	draft_proposal_card.appendChild(generateEnvelopDiv);
+// 	draft_proposal_card.appendChild(generateP);
+// 	draft_proposal_card.appendChild(formTag);
+
+// 	//popup
+// 	$(document).ready(function () {
+// 		$('.draft_a_proposal').click(function () {
+// 			$('.modal-box').toggleClass('show-modal');
+// 			$('.draft_a_proposal').toggleClass('show-modal');
+// 		});
+// 		$('.fa-times').click(function () {
+// 			$('.modal-box').toggleClass('show-modal');
+// 			$('.draft_a_proposal').toggleClass('show-modal');
+// 		});
+// 	});
 // }

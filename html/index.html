@@ -8,7 +8,7 @@
 			src="https://kit.fontawesome.com/7b35b07a48.js"
 			crossorigin="anonymous"
 		></script>
-
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 		<link
 			rel="icon"
 			href="https://app.hellobonsai.com/assets/logo-icon-6263c52498bd8749917ac337dfcb797432a7d3df25bc04e1a5ce2b0e7451268e.png"
@@ -30,6 +30,7 @@
 		<div class="sidenav">
 			<div class="home_icon">
 				<img
+					id="img"
 					src="https://app.hellobonsai.com/assets/logo-icon-6263c52498bd8749917ac337dfcb797432a7d3df25bc04e1a5ce2b0e7451268e.png"
 					alt="website_icon"
 				/>
@@ -109,9 +110,12 @@
 							Vk <i class="fa fa-caret-down"></i>
 						</button>
 						<div id="myDropdown" class="dropdown-content">
-							<a href="#home">Home</a>
-							<a href="#about">About</a>
-							<a href="#contact">Contact</a>
+							<a href="My_Profile">My Profile</a>
+							<a href="Bonsai_app">Bonsai App</a>
+							<a href="Get_Bonsai_Free">Get Bonsai Free</a>
+							<a href="Release_Notes">Release Notes</a>
+							<a href="Settings">Settings</a>
+							<a href="Logout">Logout</a>
 						</div>
 					</div>
 				</div>
@@ -153,7 +157,7 @@
 				</div>
 
 				<div class="right_side_top_div">
-					<div class="card">
+					<div class="card" id="draft_a_proposal">
 						<img
 							src="https://app.hellobonsai.com/assets/getting_started/onboarding-action-proposals-bacdbb40781bcf1a17d937c8265c4d82f286ec8a6fe9f106ad402c03cf382608.png"
 							alt="draft"

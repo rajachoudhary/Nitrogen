@@ -58,3 +58,8 @@ window.onclick = function (event) {
 // function noBorder() {
 // 	timerDiv.textDec
 // }
+img = document.getElementById('img');
+img.addEventListener('click', takeToHomePage);
+function takeToHomePage() {
+	window.location.replace('../html/index.html');
+}

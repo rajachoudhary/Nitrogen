@@ -101,3 +101,8 @@ function addTask(e) {
 // 	localStorage.setItem('localtask', JSON.stringify(taskObj));
 // 	showTask();
 // }
+img = document.getElementById('img');
+img.addEventListener('click', takeToHomePage);
+function takeToHomePage() {
+	window.location.replace('../html/index.html');
+}

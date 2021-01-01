@@ -26,6 +26,7 @@ body {
 	width: 33px;
 	margin-top: 0px;
 	margin-left: 20px;
+	cursor: pointer;
 }
 .home_icon > img + div {
 	float: right;
