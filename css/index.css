@@ -269,7 +269,7 @@ body {
 }
 .total_income_middle {
 	float: left;
-	border: 1px solid rgb(216, 216, 216);
+	border: 0.5px solid lightgray;
 	height: 150px;
 	width: 95px;
 	border-bottom: 2px solid green;
@@ -282,10 +282,10 @@ body {
 }
 .bottom_total_income_middle {
 	float: left;
-	border: 1px solid rgb(216, 216, 216);
+	border: 0.5px solid lightgray;
 	height: 150px;
 	width: 95px;
-	border-bottom: 1px solid rgb(216, 216, 216);
+	border-bottom: 1px solid lightgray;
 	margin-top: 0px;
 }
 /* .line-div {
