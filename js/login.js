@@ -26,3 +26,8 @@ function validation(email, password) {
 	}
 	return false;
 }
+img = document.getElementById('img');
+img.addEventListener('click', takeToHomePage);
+function takeToHomePage() {
+	window.location.replace('../html/index.html');
+}
