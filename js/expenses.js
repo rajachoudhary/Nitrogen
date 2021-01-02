@@ -36,3 +36,9 @@ img.addEventListener('click', takeToHomePage);
 function takeToHomePage() {
 	window.location.replace('../html/index.html');
 }
+
+upgradePlanBtn = document.getElementById('upgrade_plan');
+upgradePlanBtn.addEventListener('click', takeToHomePage);
+function takeToHomePage() {
+	window.location.replace('../html/free_trial_for_expenses.html');
+}

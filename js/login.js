@@ -18,8 +18,8 @@ function submitData(e) {
 function validation(email, password) {
 	if (
 		(email.value.trim() === 'vishal@gmail.com' ||
-			email.value.trim() === 'raj@gmail.com' ||
-			email.value.trim() === 'raj@gmail.com') &&
+			email.value.trim() === 'raja@gmail.com' ||
+			email.value.trim() === 'ashutosh@gmail.com') &&
 		password.value.trim().length >= 6
 	) {
 		return true;

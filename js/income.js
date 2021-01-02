@@ -36,3 +36,9 @@ img.addEventListener('click', takeToHomePage);
 function takeToHomePage() {
 	window.location.replace('../html/index.html');
 }
+
+upgradePlanbtn = document.getElementById('upgrade_plan');
+upgradePlanbtn.addEventListener('click', takeToHomePage);
+function takeToHomePage() {
+	window.location.replace('../html/freetrial_for_income.html');
+}
