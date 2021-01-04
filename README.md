@@ -22,10 +22,14 @@ hellobonsai.com Clone was designed from the ground and purely done in teamwork a
 ## Running the Clone website
 
 To run the hellobonsai.com clone locally, 
-![dashboard](https://user-images.githubusercontent.com/40117155/103502830-83d8d600-4e78-11eb-9783-d981bd922bba.png)
+
 1.  download the repository in your pc locally.
 2.  From within the directory, copy file in your local internet browser.
-3.  Load the website and here are the functionalities which we have made available through which you can visit the following websites:
+3.  Right now, you can login only using three of our teammates user id's. One of them is 
+    user id : ashutosh@gmail.com
+    password : 123456
+    ![dashboard](https://user-images.githubusercontent.com/40117155/103502832-863b3000-4e78-11eb-8082-a7d8893b123b.png)
+4.  Load the website and here are the functionalities which we have made available through which you can visit the following websites:
     1. Login Page
     2. Dashboard
     3. Proposals along with templates
