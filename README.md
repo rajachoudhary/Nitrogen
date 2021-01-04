@@ -14,7 +14,7 @@ title: hellobonsai.com CLONE
 ---
 description: Created a Clone of hellobonsai.com using HTML, CSS, JAVASCRIPT for Build Week Assessment!
 ---
-![Screenshot from 2021-01-03 23-05-01.png](https://user-images.githubusercontent.com/40117155/100494281-58224c00-3166-11eb-9ad9-9bfaee9c5641.png)
+![login page](https://user-images.githubusercontent.com/40117155/103502830-83d8d600-4e78-11eb-9783-d981bd922bba.png)
 hellobonsai.com Clone was designed from the ground and purely done in teamwork and can be run locally as the code is not pushed on server.
 
 > **Important Note:** All functionalities are not available and some part are purely static Pages. Managing and adding tasks works well.
@@ -22,7 +22,7 @@ hellobonsai.com Clone was designed from the ground and purely done in teamwork a
 ## Running the Clone website
 
 To run the hellobonsai.com clone locally, 
-
+![dashboard](https://user-images.githubusercontent.com/40117155/103502830-83d8d600-4e78-11eb-9783-d981bd922bba.png)
 1.  download the repository in your pc locally.
 2.  From within the directory, copy file in your local internet browser.
 3.  Load the website and here are the functionalities which we have made available through which you can visit the following websites:
